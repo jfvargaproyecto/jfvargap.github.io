@@ -1,0 +1,154 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&family=Yellowtail&display=swap');
+*{
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-family: "Titillium Web";
+    box-sizing: border-box;
+    margin: 2.5px;
+    padding: 2.5px;
+}
+
+
+
+body{
+background-color: white;
+}
+section#contact {
+    border-radius: 5px;
+    border: 3px solid rgb(108, 189, 236);
+    background-color: lightgrey;
+    display: flex;
+    justify-content: space-between;
+}
+header{
+    position: sticky;
+    top: 0;
+     justify-content: right; 
+    display: flex;
+    flex-wrap: wrap;
+    border: 3px solid rgb(108, 189, 236);
+    border-radius: 20px;
+    background-color: lightgrey;
+
+ }
+
+nav ul {
+
+    display:flex;
+    justify-content: left;
+    list-style: none;
+}
+nav ul li{
+    font-size: 23px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px-20px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 3px solid rgb(108, 189, 236);
+    
+}
+
+section#hero{
+    border-radius: 20px;
+    border: 3px solid rgb(108, 189, 236);
+    background-color: lightgrey;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+section#perfil {
+    border-radius: 5px;
+    border: 3px solid rgb(108, 189, 236);
+    background-color: lightgrey;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+
+section#informacion{
+    background-color:lightgrey;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 30px;
+}
+.infopersonal{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    border: 7px solid cornflowerblue;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.infolaboral{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    border: 7px solid cornflowerblue;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+section#informacion {
+    color: #070707;
+    font-family: "Titillium Web";
+    font-size: 17px;
+ 
+}
+
+
+ h1{
+    color: #070707;
+    font-family: "Titillium Web";
+    font-size: 3rem;
+    text-shadow: 0 0 35px #fff;
+}
+ h2{
+    color: #070707;
+    font-family: "Titillium Web";
+    font-size: 2rem;
+    text-shadow: 0 0 20px #2b2a2a;
+}
+.projects{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration-color: gray;
+    border: 10px solid cornflowerblue;
+    border-radius: 20px;
+   flex-wrap: wrap;
+   justify-content: center;
+    background-color: #fff;
+}
+
+  section#projects h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    text-decoration: underline grey;
+    background-color: #fff;
+}
+.projects-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.projects-detail{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration-color: gray;
+    border: 10px solid cornflowerblue;
+    border-radius: 20px;
+    width: 300px;
+    margin: 20px;
+    box-shadow: 3px 3px 30px 5px gray inset;
+ }
+.projects-detail img{
+    width: 100%;
+} 
+/*mi primera vez creando con html js, y css*/
