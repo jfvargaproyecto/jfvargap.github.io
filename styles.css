@@ -118,6 +118,7 @@ section#informacion {
     text-shadow: 0 0 20px #2b2a2a;
 }
 .projects{
+    width: 100%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-decoration-color: gray;
     border: 10px solid cornflowerblue;
