@@ -145,6 +145,7 @@ section#informacion {
 .projects-detail{
     width: 100%;
     display: flex;
+    justify-content: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-decoration-color: gray;
     border: 10px solid cornflowerblue;
