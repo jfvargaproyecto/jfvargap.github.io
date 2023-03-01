@@ -33,10 +33,6 @@ header{
 
  }
 
- .CV{
-    display:flex;
- }
-
 .CV h1{
     color: #070707;
     font-family: "Titillium Web";
