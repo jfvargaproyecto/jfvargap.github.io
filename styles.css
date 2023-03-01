@@ -33,12 +33,6 @@ header{
 
  }
 
-.CV h1{
-    color: #070707;
-    font-family: "Titillium Web";
-    font-size: 2rem;
-    text-shadow: 0 0 20px #2b2a2a;
-}
 
 nav ul {
 
@@ -61,7 +55,6 @@ section#hero{
     border-radius: 20px;
     border: 3px solid rgb(108, 189, 236);
     background-color: lightgrey;
-    height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
