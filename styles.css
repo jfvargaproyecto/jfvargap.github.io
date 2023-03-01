@@ -87,6 +87,17 @@ section#informacion{
     border-radius: 20px;
     background-color: rgb(255, 255, 255);
 }
+.CV{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    border: 7px solid cornflowerblue;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
 
 .infolaboral{
     justify-content: center;
