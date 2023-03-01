@@ -14,19 +14,17 @@
 body{
 background-color: white;
 }
-section#contact {
-    /*border-radius: 5px;
-    border: 3px solid rgb(108, 189, 236);
-    background-color: lightgrey;
-    display: flex;
-    justify-content: space-between;*/
-	   border-radius: 20px;
+
+section#contact{
+    border-radius: 20px;
     border: 3px solid rgb(108, 189, 236);
     background-color: lightgrey;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
+
 header{
     position: sticky;
     top: 0;
@@ -36,7 +34,6 @@ header{
     border: 3px solid rgb(108, 189, 236);
     border-radius: 20px;
     background-color: lightgrey;
-
  }
 
 
