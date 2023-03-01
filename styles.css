@@ -35,8 +35,14 @@ header{
 
  .CV{
     display:flex;
-    justify-content: left;
  }
+
+.CV h1{
+    color: #070707;
+    font-family: "Titillium Web";
+    font-size: 2rem;
+    text-shadow: 0 0 20px #2b2a2a;
+}
 
 nav ul {
 
