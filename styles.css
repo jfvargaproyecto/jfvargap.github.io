@@ -15,7 +15,6 @@ body{
 background-color: white;
 }
 section#contact {
-    width: 100%;
     border-radius: 5px;
     border: 3px solid rgb(108, 189, 236);
     background-color: lightgrey;
@@ -32,6 +31,11 @@ header{
     border-radius: 20px;
     background-color: lightgrey;
 
+ }
+
+ .CV{
+    display:flex;
+    justify-content: left;
  }
 
 nav ul {
@@ -55,7 +59,7 @@ section#hero{
     border-radius: 20px;
     border: 3px solid rgb(108, 189, 236);
     background-color: lightgrey;
-    height: 50px;
+    height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -87,13 +91,6 @@ section#informacion{
     border-radius: 20px;
     background-color: rgb(255, 255, 255);
 }
-.titulocv{
-     justify-content: left;
-    display: flex;
-}
-
-
-
 
 .infolaboral{
     justify-content: center;
@@ -124,8 +121,8 @@ section#informacion {
     font-size: 2rem;
     text-shadow: 0 0 20px #2b2a2a;
 }
+
 .projects{
-    width: 100%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-decoration-color: gray;
     border: 10px solid cornflowerblue;
@@ -142,7 +139,6 @@ section#informacion {
     background-color: #fff;
 }
 .projects-list{
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -150,7 +146,7 @@ section#informacion {
 }
 
 .projects-detail{
-      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-decoration-color: gray;
     border: 5px solid cornflowerblue;
     border-radius: 15px;
@@ -159,7 +155,19 @@ section#informacion {
     justify-content: center;
  }
 .projects-detail img{
+    justify-content: center;
     width: 100%;
-    display: flex;
 } 
+
+@media screen and (max-width: 900px) {
+	
+}
+
+@media screen and (max-width: 700px) {
+	
+}
+
+@media screen and (max-width: 600px) {
+
+}
 /*mi primera vez creando con html js, y css*/
